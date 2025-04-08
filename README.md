@@ -1,4 +1,5 @@
 Some modifications made!
+I did not use my university e-mail for my account. My university E-mail is: Alexander.schweiger@stud.thga.de
 # PP1
 
 ## Goal
@@ -69,34 +70,34 @@ When you have finished working, in Moodle, click "Add solution" and submit the l
 Fill out the following table, mapping decimal numbers `0` through `15` to their binary representations:
 
 | Decimal | Binary Representation |
-|---------|------------------------|
-| 0       | 0000                   |
-| 1       | 0001                   |
-| 2       | 0010                   |
-| 3       | 0011                   |
-| 4       | 0100                   |
-| 5       | 0101                   |
-| 6       | 0110                   |
-| 7       | 0111                   |
-| 8       | 1000                   |
-| 9       | 1001                   |
-| 10      | 1010                   |
-| 11      | 1011                   |
-| 12      | 1100                   |
-| 13      | 1101                   |
-| 14      | 1110                   |
-| 15      | 1111                   |
+|---------|-----------------------|
+| 0       | 0000                  |
+| 1       | 0001                  |
+| 2       | 0010                  |
+| 3       | 0011                  |
+| 4       | 0100                  |
+| 5       | 0101                  |
+| 6       | 0110                  |
+| 7       | 0111                  |
+| 8       | 1000                  |
+| 9       | 1001                  |
+| 10      | 1010                  |
+| 11      | 1011                  |
+| 12      | 1100                  |
+| 13      | 1101                  |
+| 14      | 1110                  |
+| 15      | 1111                  |
 
 **How many binary digits (bits) are needed?**
 
 Explain how to calculate the number of bits required:
 <details>
 <summary>Your Answer</summary>
-You have 4 digits. The first number is the right digit. It starts with 2^0 (1) then comes 2^1 (2) after that the next number is 2^2 (4) and the last number is 2^3 (8). I took the number an divided it by 2. if the rest is zero then the bit is 0 if the rest is one then the bit is 1. for example: 16/2= 8 R 0 , 
-                                                                           8/2=4 R0 , 
-                                                                           4/2=2 R0, 
-                                                                           2/2=1 R0, 
-                                                                           1/2= 0 R1. 
+You have 4 digits. The first number is the right digit. It starts with 2^0 (1) then comes 2^1 (2) after that the next number is 2^2 (4) and the last number is 2^3 (8). I took the number an divided it by 2. if the rest is zero then the bit is 0 if the rest is one then the bit is 1. for example: 16/2= 8 R 0 (least significant Bit) 
+                                                                           8/2=4 R0  
+                                                                           4/2=2 R0 
+                                                                           2/2=1 R0 
+                                                                           1/2= 0 R1 (most significant Bit)
                                                                                                                                                                                                         |2^0 (1)|   
 The result of the first Division is the least significant bit so it is 2^0. The last result of the divsion ist the most significant Bit. It is on the last bit. So in my example the order is: 16 = 1000 |  0.   |
       |2^4 (16) |2^3 (8)|2^2 (4)| 2^1 (2) |2^0 (1)
@@ -161,11 +162,11 @@ Use the [K-Map method](https://github.com/STEMgraph/4b957490-badf-4264-b9f2-1b5a
 <details>
 <summary>The final functions</summary>
 
-Q<sub>0</sub> = (!B<sub>0</sub>)
+Q<sub>0</sub> = (A<sub>0</sub> ∧ notB<sub>0</sub>) ∨ (notA<sub>0</sub> ∧ B<sub>0</sub>)
 
-Q<sub>1</sub> = .......
+Q<sub>1</sub> = (A<sub>1</sub> ∧ notB<sub>1</sub>) ∨ (notA<sub>1</sub> ∧ B<sub>1</sub>)
 
-C<sub>out</sub> = .......
+C<sub>out</sub> =(A<sub>0</sub> ∧ B<sub>0</sub>) ∨ (A<sub>1</sub> ∧ B<sub>1</sub>)
 
 </details>
 
@@ -182,4 +183,6 @@ A share link to your solution goes here: <a href=".................">Link!</a>
 ---
 
 **Remember:** Stop working after 90 minutes and record where you stopped!
+
+I finished task 1-3. I needed 2 minutes and 22 seconds more time to write the equations down in task 3. 
 
