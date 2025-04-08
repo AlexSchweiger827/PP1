@@ -1,3 +1,4 @@
+Some modifications made!
 # PP1
 
 ## Goal
@@ -71,15 +72,36 @@ Fill out the following table, mapping decimal numbers `0` through `15` to their 
 |---------|------------------------|
 | 0       | 0000                   |
 | 1       | 0001                   |
-| ...     | ...                    |
-| 15      | ????                   |
+| 2       | 0010                   |
+| 3       | 0011                   |
+| 4       | 0100                   |
+| 5       | 0101                   |
+| 6       | 0110                   |
+| 7       | 0111                   |
+| 8       | 1000                   |
+| 9       | 1001                   |
+| 10      | 1010                   |
+| 11      | 1011                   |
+| 12      | 1100                   |
+| 13      | 1101                   |
+| 14      | 1110                   |
+| 15      | 1111                   |
 
 **How many binary digits (bits) are needed?**
 
 Explain how to calculate the number of bits required:
 <details>
 <summary>Your Answer</summary>
-Erase this text and write your answer here!
+You have 4 digits. The first number is the right digit. It starts with 2^0 (1) then comes 2^1 (2) after that the next number is 2^2 (4) and the last number is 2^3 (8). I took the number an divided it by 2. if the rest is zero then the bit is 0 if the rest is one then the bit is 1. for example: 16/2= 8 R 0 , 
+                                                                           8/2=4 R0 , 
+                                                                           4/2=2 R0, 
+                                                                           2/2=1 R0, 
+                                                                           1/2= 0 R1. 
+                                                                                                                                                                                                        |2^0 (1)|   
+The result of the first Division is the least significant bit so it is 2^0. The last result of the divsion ist the most significant Bit. It is on the last bit. So in my example the order is: 16 = 1000 |  0.   |
+      |2^4 (16) |2^3 (8)|2^2 (4)| 2^1 (2) |2^0 (1)
+16 =  | 1       | 0     | 0     | 0       | 0
+   for the number 16 you need 5 Bits (10000).
 </details>
 
 ---
