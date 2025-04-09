@@ -156,7 +156,20 @@ Use the [K-Map method](https://github.com/STEMgraph/4b957490-badf-4264-b9f2-1b5a
 
 1. Fill out Karnaugh Maps
 
-   
+|  S<sub>0</sub>               | A<sub>1</sub>=0 A<sub>0</sub>=0 | A<sub>1</sub>=0 A<sub>0</sub>=1 | A<sub>1</sub>=1 A<sub>0</sub>=1 |A<sub>1</sub>=1 A<sub>0</sub>=0 |
+|-------                       |---------                        |---------                        |---------                        |---------                       |
+| B<sub>1</sub>=0 B<sub>0</sub>|    1                            |   0                             |   1                             |   1                            |
+| B<sub>1</sub>=1 B<sub>0</sub>|    1                            |   1                             |   0                             |   1                            |
+
+|       | A=0 C=0 | A=0 C=1 | A=1 C=1 | A=1 C=0 |
+|-------|---------|---------|---------|---------|
+| B=0   |    1    |   0     |   1     |   1     |
+| B=1   |    1    |   1     |   0     |   1     |
+
+|       | A=0 C=0 | A=0 C=1 | A=1 C=1 | A=1 C=0 |
+|-------|---------|---------|---------|---------|
+| B=0   |    1    |   0     |   1     |   1     |
+| B=1   |    1    |   1     |   0     |   1     |
    
 2. Write down an equation for each cell marked `1`
    
