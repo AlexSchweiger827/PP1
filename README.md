@@ -189,7 +189,7 @@ Use the [K-Map method](https://github.com/STEMgraph/4b957490-badf-4264-b9f2-1b5a
 
 S<sub>0</sub> = (A<sub>0</sub> ∧ notB<sub>0</sub>) ∨ (notA<sub>0</sub> ∧ B<sub>0</sub>)
 
-S<sub>1</sub> = (A<sub>1</sub> ∧ notB<sub>1</sub>) ∨ (notA<sub>1</sub> ∧ B<sub>1</sub>) ∨ (A<sub>0</sub> ∧ notB<sub>0</sub>)∨ (A<sub>0</sub> ∧ notB<sub>0</sub> A<sub>1</sub> B<sub>1</sub>)
+S<sub>1</sub> = (A<sub>1</sub> ∧ notB<sub>1</sub>) ∨ (notA<sub>1</sub> ∧ B<sub>1</sub>) ∨ (A<sub>0</sub> ∧ notB<sub>0</sub>)∨ (A<sub>0</sub> ∧ notB<sub>0</sub> ∧ A<sub>1</sub> ∧ B<sub>1</sub>)
 
 C<sub>out</sub> = ((A<sub>1</sub> ∧ B<sub>1</sub>) ∨ (A<sub>0</sub> ∧ B<sub>0</sub> ∧ A<sub>1</sub> ∧ B<sub>1</sub>)
 
