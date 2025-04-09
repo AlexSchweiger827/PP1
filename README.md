@@ -135,19 +135,19 @@ Create a truth table for a **2-bit adder** without carry-in. What are the possib
 | 0             | 0             | 0             | 0           | 0             | 0            | 0              |
 | 0             | 0             | 0             | 1           | 0             | 1            | 0              |
 | 0             | 0             | 1             | 0           | 0             | 1            | 0              |
-| 0             | 0             | 1             | 1           | 0             | 0            | 1              |
+| 0             | 0             | 1             | 1           | 1             | 0            | 0              |
 | 0             | 1             | 0             | 0           | 1             | 0            | 0              |
 | 0             | 1             | 0             | 1           | 1             | 1            | 0              |
 | 0             | 1             | 1             | 0           | 1             | 1            | 0              |
-| 0             | 1             | 1             | 1           | 1             | 0            | 1              |
+| 0             | 1             | 1             | 1           | 0             | 0            | 1              |
 | 1             | 0             | 0             | 0           | 1             | 0            | 0              |
 | 1             | 0             | 0             | 1           | 1             | 1            | 0              |
 | 1             | 0             | 1             | 0           | 1             | 1            | 0              |
-| 1             | 0             | 1             | 1           | 1             | 0            | 1              |
+| 1             | 0             | 1             | 1           | 0             | 0            | 1              |
 | 1             | 1             | 0             | 0           | 0             | 0            | 1              |
 | 1             | 1             | 0             | 1           | 0             | 1            | 1              |
 | 1             | 1             | 1             | 0           | 0             | 1            | 1              |
-| 1             | 1             | 1             | 1           | 0             | 0            | 1              |
+| 1             | 1             | 1             | 1           | 1             | 0            | 1              |
 
 ---
 
@@ -155,18 +155,18 @@ Create a truth table for a **2-bit adder** without carry-in. What are the possib
 Use the [K-Map method](https://github.com/STEMgraph/4b957490-badf-4264-b9f2-1b5aa370f36e) to derive Boolean equations for each output bit in your 2-bit adder.
 
 1. Fill out Karnaugh Maps
-2. Write down an equation for each cell marked `1`
-3. Combine them using OR gates
-4. Minimize the equations
+3. Write down an equation for each cell marked `1`
+4. Combine them using OR gates
+5. Minimize the equations
 
 <details>
 <summary>The final functions</summary>
 
-Q<sub>0</sub> = (A<sub>0</sub> ∧ notB<sub>0</sub>) ∨ (notA<sub>0</sub> ∧ B<sub>0</sub>)
+S<sub>0</sub> = (A<sub>0</sub> ∧ notB<sub>0</sub>) ∨ (notA<sub>0</sub> ∧ B<sub>0</sub>)
 
-Q<sub>1</sub> = (A<sub>1</sub> ∧ notB<sub>1</sub>) ∨ (notA<sub>1</sub> ∧ B<sub>1</sub>)
+S<sub>1</sub> = (A<sub>1</sub> ∧ notB<sub>1</sub>) ∨ (notA<sub>1</sub> ∧ B<sub>1</sub>) ∨ (A<sub>0</sub> ∧ notB<sub>0</sub>)∨ (A<sub>0</sub> ∧ notB<sub>0</sub> A<sub>1</sub> B<sub>1</sub>)
 
-C<sub>out</sub> =(A<sub>0</sub> ∧ B<sub>0</sub>) ∨ (A<sub>1</sub> ∧ B<sub>1</sub>)
+C<sub>out</sub> = ((A<sub>1</sub> ∧ B<sub>1</sub>) ∨ (A<sub>0</sub> ∧ B<sub>0</sub> ∧ A<sub>1</sub> ∧ B<sub>1</sub>)
 
 </details>
 
@@ -184,5 +184,5 @@ A share link to your solution goes here: <a href=".................">Link!</a>
 
 **Remember:** Stop working after 90 minutes and record where you stopped!
 
-I finished task 1-3. I needed 2 minutes and 22 seconds more time to write the equations down in task 3. 
+I finished task 1-3. I needed 2 minutes and 22 seconds more time for task 3 (92 minutes and 22 seconds). 
 
