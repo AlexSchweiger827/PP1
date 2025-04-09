@@ -130,7 +130,6 @@ Refer to the truth table of a 1-bit full adder:
 #### Your Task
 Create a truth table for a **2-bit adder** without carry-in. What are the possible inputs and outputs?
 
-|-------------------------------------------------------------|-----------------------------------------------|
 | A<sub>1</sub> | B<sub>1</sub> | A<sub>0</sub> |B<sub>0</sub>| S<sub>1</sub> |S<sub>0</sub> |C<sub>out</sub> |
 |---------------|---------------|---------------|-------------|---------------|------------- |----------------|
 | 0             | 0             | 0             | 0           | 0             | 0            | 0              |
