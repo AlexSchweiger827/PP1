@@ -93,12 +93,13 @@ Fill out the following table, mapping decimal numbers `0` through `15` to their 
 Explain how to calculate the number of bits required:
 <details>
 <summary>Your Answer</summary>
-You have 4 digits. The first number is the right digit. It starts with 2^0 (1) then comes 2^1 (2) after that the next number is 2^2 (4) and the last number is 2^3 (8). I took the number an divided it by 2. if the rest is zero then the bit is 0 if the rest is one then the bit is 1. for example: |16/2= 8 R 0 (least significant Bit) 
-                                                                          |8/2=4 R0  
-                                                                          |4/2=2 R0 
-                                                                          |2/2=1 R0 
-                                                                          |1/2= 0 R1 (most significant Bit)
-                                                                                                                                                                                                         |2^0 (1)|   
+You have 4 digits. The first number is the right digit. It starts with 2^0 (1) then comes 2^1 (2) after that the next number is 2^2 (4) and the last number is 2^3 (8). I took the number an divided it by 2. if the rest is zero then the bit is 0 if the rest is one then the bit is 1. for example: 
+                                                                          |---------------------------------   |
+                                                                          |16/2= 8 R 0 (least significant Bit) |
+                                                                          |8/2=4 R0                            |
+                                                                          |4/2=2 R0                            |
+                                                                          |2/2=1 R0                            |
+                                                                          |1/2= 0 R1 (most significant Bit)    |                                                                                                                                                                                                      
 The result of the first Division is the least significant bit so it is 2^0. The last result of the divsion ist the most significant Bit. It is on the last bit. So in my example the order is: 16 = 1->(2^4) 0->(2^3) 0->(2^2) 0->(2^1) 0->(2^0).
    
 for the number 16 you need 5 Bits (10000).
