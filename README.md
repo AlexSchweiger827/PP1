@@ -1,5 +1,5 @@
 Some modifications made!
-I did not use my university e-mail for my account. My university E-mail is: Alexander.schweiger@stud.thga.de
+
 # PP1
 
 ## Goal
@@ -210,6 +210,8 @@ A share link to your solution goes here: <a href=".................">Link!</a>
 ---
 
 **Remember:** Stop working after 90 minutes and record where you stopped!
+
+I did not use my university e-mail for my account. My university E-mail is: Alexander.schweiger@stud.thga.de
 
 I finished task 1-3. I needed 2 minutes and 22 seconds more time for task 3 (92 minutes and 22 seconds). 
 
