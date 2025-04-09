@@ -99,10 +99,10 @@ You have 4 digits. The first number is the right digit. It starts with 2^0 (1) t
                                                                           |2/2=1 R0 
                                                                           |1/2= 0 R1 (most significant Bit)
                                                                                                                                                                                                          |2^0 (1)|   
-The result of the first Division is the least significant bit so it is 2^0. The last result of the divsion ist the most significant Bit. It is on the last bit. So in my example the order is: 16 = 1000 |  0.   |
-      |2^4 (16) |2^3 (8)|2^2 (4)| 2^1 (2) |2^0 (1)
-16 =  | 1       | 0     | 0     | 0       | 0
-   for the number 16 you need 5 Bits (10000).
+The result of the first Division is the least significant bit so it is 2^0. The last result of the divsion ist the most significant Bit. It is on the last bit. So in my example the order is: 16 = 1->(2^4) 0->(2^3) 0->(2^2) 0->(2^1) 0->(2^0).
+   
+for the number 16 you need 5 Bits (10000).
+   
 </details>
 
 ---
